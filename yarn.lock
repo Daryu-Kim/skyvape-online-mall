@@ -489,6 +489,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@portone/browser-sdk@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@portone/browser-sdk/-/browser-sdk-0.0.3.tgz#7b6f58d96fd0d81777147d173c8b351fd0b2c693"
+  integrity sha512-1rJFA04haprUils7/76PP5ZttJpOBy35AtetR8Fp6wCSXzwQhKTV6n9UGh6yTsyBQxT0HsiwRrhsENFLhXWBgA==
+
 "@rushstack/eslint-patch@^1.2.0":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.5.1.tgz#5f1b518ec5fa54437c0b7c4a821546c64fed6922"
