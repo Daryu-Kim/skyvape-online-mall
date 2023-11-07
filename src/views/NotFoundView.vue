@@ -3,7 +3,7 @@
 </script>
 
 <template>
-404!
+  <main>404 Not Found!</main>
 </template>
 
 <style scoped>

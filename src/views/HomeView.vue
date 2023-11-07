@@ -68,6 +68,9 @@ function bannerClick(link: string) {
 </template>
 
 <style scoped lang="scss">
+main {
+  padding: 0;
+}
 .skyvape-main-banner {
   aspect-ratio: 3 / 1.25;
 
