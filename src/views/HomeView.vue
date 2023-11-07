@@ -71,7 +71,7 @@ function bannerClick(link: string) {
 .skyvape-main-banner {
   aspect-ratio: 3 / 1.25;
 
-  > .skyvape-main-banner-slide {
+  .skyvape-main-banner-slide {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

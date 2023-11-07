@@ -3,6 +3,7 @@ import {RouterLink} from "vue-router";
 import IconMenuBtn from "@/components/icons/IconMenuBtn.vue";
 import IconSearchBtn from "@/components/icons/IconSearchBtn.vue";
 import IconCartBtn from "@/components/icons/IconCartBtn.vue";
+import router from "@/router";
 </script>
 
 <template>
@@ -12,10 +13,10 @@ import IconCartBtn from "@/components/icons/IconCartBtn.vue";
       </button>
       <RouterLink class="skyvape-logo" to="/">SKYVAPE</RouterLink>
       <div class="skyvape-func-menu">
-        <button>
+        <button @click="router.push('/search')">
           <IconSearchBtn />
         </button>
-        <button>
+        <button @click="router.push('/cart')">
           <IconCartBtn />
         </button>
       </div>

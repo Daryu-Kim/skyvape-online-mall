@@ -8,6 +8,8 @@ import BaseFooter from "@/components/BaseFooter.vue";
 <template>
   <TopBanner />
   <BaseHeader />
-  <RouterView />
+  <transition>
+    <RouterView />
+  </transition>
   <BaseFooter />
 </template>
