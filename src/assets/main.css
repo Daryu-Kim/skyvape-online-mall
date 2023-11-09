@@ -33,6 +33,10 @@ input[type=checkbox] {
   transition: all 200ms ease-in-out;
 }
 
+.inner {
+  padding: 0 2.4rem !important;
+}
+
 body {
   -ms-overflow-style: none; /* 인터넷 익스플로러 */
   scrollbar-width: none; /* 파이어폭스 */
@@ -57,27 +61,23 @@ button {
 
 @media (max-width: 424px) {
   html {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
   html {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
   html {
     font-size: 12px;
   }
 }
 
 @media (min-width: 1024px) {
-  html {
-    font-size: 14px;
-  }
-
   body {
     display: flex;
     align-items: center;

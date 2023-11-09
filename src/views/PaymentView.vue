@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import * as PortOne from "@portone/browser-sdk/v2";
+import {showSuccessToastMessages} from "@/functions/Toast";
 async function adultRequest() {
   const response = await PortOne.requestIdentityVerification({
-    storeId: "store-ea6b352b-061d-4dec-872c-05067992a259",
-    identityVerificationId: "q34r-qn93r8mw09e09x",
-    channelKey: "channel-key-98690180-8c66-4b18-978d-85fb106ddaca",
+    storeId: "store-af7f519a-dfe9-4dcc-91e8-9ce86af5194d",
+    identityVerificationId: "A010002002",
+    channelKey: "channel-key-42d2bbbd-796a-4e6d-b872-6e2dfdfded64",
   });
+  showSuccessToastMessages(response as string);
   console.log(response);
 }
 

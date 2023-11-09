@@ -5,6 +5,21 @@ import IconFacebook from "@/components/icons/IconFacebook.vue";
 import IconGoogle from "@/components/icons/IconGoogle.vue";
 import IconKakao from "@/components/icons/IconKakao.vue";
 import router from "@/router";
+
+async function joinSocialAccount(platform: string) {
+  switch (platform) {
+    case "apple":
+      break;
+    case "facebook":
+      break;
+    case "google":
+      break;
+    case "kakao":
+      break;
+    default:
+      break;
+  }
+}
 </script>
 
 <template>
